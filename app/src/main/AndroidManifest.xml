@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.avstore.education.avpreschoolforkids">
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/finallogo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/finallogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.avstore.preschool2019.AboutUsActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.avstore.preschool2019.poemActivity"
+            android:screenOrientation="portrait" />
+
+        <!--<activity-->
+        <!--android:name=".PoemActivity"-->
+        <!--android:label="@string/title_activity_poem"-->
+        <!--android:theme="@style/AppTheme.NoActionBar" />-->
+
+        <activity
+            android:name="com.avstore.preschool2019.WeekMonthContinentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avstore.preschool2019.ColourActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avstore.preschool2019.RhymesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avstore.preschool2019.SecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avstore.preschool2019.MenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.avstore.preschool2019.SpleshActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/AD_AppId"/>
+
+        <!-- Facebook Ads start -->
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:hardwareAccelerated="true" />
+        <!-- Facebook Ads end -->
+
+    </application>
+
+</manifest>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Preschool 2019</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="AD_AppId">ca-app-pub-9105044984189974~6757363048</string>
+    <string name="AD_Interstitial">ca-app-pub-9105044984189974/6785283200</string>
+    <string name="AD_Banner1">ca-app-pub-9105044984189974/3748056322</string>
+    <string name="AD_banner2">ca-app-pub-9105044984189974/2243402967</string>
+    <string name="AD_banner3">ca-app-pub-9105044984189974/6565791351</string>
+
+</resources>
